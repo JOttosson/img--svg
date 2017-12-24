@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Make inline SVG from IMG src</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/style.css">
+</head>
+
+<body>
+	<div class="toptext animated fadeIn">
+		<h1>Make inline svg from img src url</h1>
+		<p>Dependecies: jQuery</p>
+		<ul>
+			<li>* Works with CSS animations</li>
+			<li>* Included fallback (.png) for IE 7-9</li>
+		</ul>
+		<p><a href="https://github.com/JOttosson/img-svg">Github</a></p>
+	</div>
+	<div class="container animated fadeInUp">
+		
+		<img src="img/png.png" srcset="img/svg.svg" alt="img-svg" class="inline-svg" />
+	</div>
+    <script type="text/javascript" src="dist/final.min.js"></script>
+</body>
+
+</html>

@@ -6,4 +6,4 @@ Dependecies: jQuery
 * Works with CSS animations
 * Included fallback (.png) for IE 7-9
 
-http://jimmyottosson.se/img-svg/
+https://codepen.io/jimmy_o/pen/RxoMZR
